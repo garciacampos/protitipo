@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: prototipo
+datasources:
+  default:
+    url: ${JDBC_URL:`jdbc:postgresql://localhost:5432/prestamos-db`}
+    driverClassName: org.postgresql.Driver
+    username: ${JDBC_USER:prestamos}
+    password: ${JDBC_PSWD:prestamos}
+jpa:
+  default:
+    properties:
+      hibernate:
+flyway:
+  datasources:
+    default:
+      locations: classpath:db/migration
+jackson:
+  serialization:
+    writeDatesAsTimestamps: false

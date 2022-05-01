@@ -1,0 +1,5 @@
+com.ccpv.prototipo.service.$AnalyticsClient$InterceptedDefinitionClass
+com.ccpv.prototipo.repository.$PrestamoRepository$InterceptedDefinitionClass
+com.ccpv.prototipo.service.$PrestamoServiceImplDefinitionClass
+com.ccpv.prototipo.$PrestamosControllerDefinitionClass
+com.ccpv.prototipo.filter.$PrestamosFilterDefinitionClass
